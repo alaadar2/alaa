@@ -1,0 +1,16 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+#include <stack>
+int main() {
+    std::stack<int>mystack;
+ for(int i=0; i<5; i++)mystack.push(i);
+    
+ while(!mystack.empty()){
+     std::cout <<' '<< mystack.top();
+mystack.pop();
+ }
+  
+    return 0;
+}
